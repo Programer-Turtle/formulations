@@ -8,6 +8,21 @@ class Basic:
             return int(num) + 1
         else:
             return int(num)
+    def Is_Whole(num):
+        if num >= 0 and int(num) == num:
+            return True
+        else:
+            return False
+    def Is_Integer(num):
+        if int(num) == num:
+            return True
+        else:
+            return False
+    def Is_Float(num):
+        if not int(num) == num:
+            return True
+        else:
+            return False
 
 class Science:
     def MC2(Mass):
@@ -85,5 +100,3 @@ class Geometry:
                 raise Exception("Unknow Error Occured")
     def TriangularPrismSimple(Length, Width, Height):
         return Geometry.Triangle(Length, Width) * Height
-
-Geometry.Distance2D(2, 6, 3, 4)
