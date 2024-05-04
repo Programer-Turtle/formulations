@@ -1,0 +1,8 @@
+README.md
+setup.py
+formulations/__init__.py
+formulations/formulations.py
+formulations.egg-info/PKG-INFO
+formulations.egg-info/SOURCES.txt
+formulations.egg-info/dependency_links.txt
+formulations.egg-info/top_level.txt
