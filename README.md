@@ -1,5 +1,6 @@
 # formulations
 A package that allows you to use many formulas quickly. These formulas span from science to geometry.
+<a>https://pypi.org/project/formulations/</a>
 
 # Basic
 Contains basic formulas like exponents.
